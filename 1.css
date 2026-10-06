@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    min-height: 60vh;
+    background-image:
+url(foto6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    color: rgb(241, 234, 234);
+    background-color: rgb(15, 15, 15);
+    font-size: 20px;
+}
+
+form {
+    width: 350px;
+    margin: 220px auto;
+
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+input [type="text"]
+input [type="email"]
+input [type="password"]
+select {
+    width: 300px;
+    height: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: rgb(0, 6, 8);
+    color: white;
+}

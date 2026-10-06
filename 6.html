@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web layout</title>
+    <style>
+        .container{
+            width: 100%;
+            background-color: aqua;
+
+        }
+        .logo{
+            padding: 20px 10px;
+            text-align: center;
+            height: 100px;
+            background-color: rgb(16, 16, 16);
+        }
+        .logo img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .navigation{
+            padding: 10px 10px;
+            display: flex;
+            justify-content: space-between;
+            background-color: #2b2b2b;
+        }
+        .navigation a{
+            color: rgb(255, 252, 252);
+        }
+        .header{
+            height: 150px;
+            box-sizing: border-box;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #8f7225;
+
+        }
+        .bodyarea{
+            display: flex;
+            height: 600px;
+        }
+        .sidebar{
+            background-color: #2b2b2b;
+            width: 20%;
+            color: white;
+            padding: 10px 10px;
+        } 
+        .sidebar p{
+            margin: 90px 0;
+        }
+        .content{
+            width: 80%;
+            padding: 20px;
+            background-color: #bcbbbb;
+        }
+        .footer{
+            height: 80px;
+            text-align: center;
+            color: white;
+            background-color: #111;
+            padding: 20px 10px;
+        }
+    </style>
+    
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <img src="foto5.jpeg"alt="">ini logo</div>
+    <div class="navigation">
+        <a href="2.html" target="_blank"> Home </a>
+        <a href="#Tentang"target="_blank">Tentang Saya</a>
+        <a href="#Kontak"target="_blank">Kontak</a>
+    </div>
+    <div class="header">
+        <h2>MUAMMAR</h2>
+        <p>Application Developer</p>
+        <p>Selamat datang di website Pribadi Saya</p>
+    </div>
+    <div class="bodyarea">
+         <div class="sidebar">
+            <h3>Menu</h3>
+            <p>Profil</p>
+            <p>Pendidikan</p>
+            <p>karier</p>
+            <P>Organisasi</P>
+            <p>karya/produk</p>
+        </div>
+         <div class="content">
+            <h2 id="Tentang">Tentang saya</h2>
+            <p>Saya adalah kelulusan Sistem Informasi yang memiliki minat
+                dibidang tekknologi dan pengembangan aplikasi.
+            </p>
+            <h2>Pendidikan</h2>
+            <p>Saya telah menyelesaikan pendidikan dibidang Sistem Informasi
+                dan terus mengembangkan kemampuan dibidang teknologi.
+            </p>
+            <h2>karier</h2>
+            <p>Saat ini Saya bekerja sebagai Application Developer Informasi dan
+                mengembangkan aplikasi yang dapat membantu kebutuhan pengguna.
+            </p>
+            <h2>Organisasi</h2>
+            <p> Saya pernah mengikuti beberapa kegiatan organisasi dan
+                memperoleh pengalaman dalam bekerja sama dengan orang lain.
+            </p>
+            <h2>Karya/Produk</h2>
+            <p>  Saya telah membuat beberapa proyek aplikasi dan website
+                  sebagai hasil dari pengalaman dan kemampuan yang saya miliki.
+            </p>
+            <h2 id="Kontak">Kontak</h2>
+            <p>Email: mmuam41@gmail.com</p>
+            <p>WhatsApp: 081279770790</p>
+
+                
+        </div>
+</div>
+<div class="footer">
+     <p>"Terus belajar, berkembang, dan menghasilkan sesuatu yang bermanfaat."</p>
+    <p>© 2031 Muammar - Sistem Informasi</p>
+</div>
+</div>
+</body>
+</html>
